@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: 0;
+}
+.color{
+    background-color:#e9e9e9;
+    font-size: 2rem;
+    line-height:56px;
+
+}
+.margin{
+    margin:2rem 1rem;
+}
+.top_side{
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.image img{
+    border-radius: 115px;
+}
+.name_desig{
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.project{
+    display: flex;
+    gap: 2rem;
+}
+.project1{
+    border: 2px solid;
+width: 16rem;
+height: 14rem;
+}
+.project1 P{
+    
+text-align: center;
+padding: 4rem 1rem;
+
+}
+p {
+font-size: 1rem;
+}
+.work{
+    height: 20rem;
+}
+.contact{
+    text-align: center;
+}

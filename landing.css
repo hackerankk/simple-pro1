@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    background-color: #b2bbc3;
+}
+.header{
+    background-image: url(image/pro\ back\ 3\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 16rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.header h1{
+    padding-top: 4rem;
+}
+.learn_box{ 
+    padding: 4px;
+    width: 8rem;
+    height: 2rem;
+    border: 2px solid white;
+    margin: 2rem 40rem;
+    background-color: mediumvioletred;
+}
+.learn_box a{
+    color: white;
+}
+.learn_box:hover{
+    width: 8rem;
+    height: 2rem;
+    border: 2px solid white;
+    margin: 2rem 40rem;
+    background-color: rgb(122, 53, 97);
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    height: 16rem;
+    margin: 1rem 25rem;
+}
+.feautes{
+  
+    width: 15rem;
+    height: 6rem;
+    margin: 1rem;
+    text-align: center;
+    padding-top: 31px;
+    border-radius: 6px;
+    background-color: white;
+    
+}
+.feautes:hover{
+    width: 15.5rem;
+    height: 6.5rem;
+    margin: 1rem;
+    text-align: center;
+    padding-top: 31px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 1px 2px 10px;
+}
+.footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

@@ -29,12 +29,13 @@ align-items: center;
     display: grid;
 grid-template-rows: repeat(2,1fr);
 grid-template-columns: repeat(2,1fr);
+height: 62rem;
 }
 .content{
         /* border: 2px solid black; */
 width: 18rem;
 height: 24rem;
-margin: 4rem 12rem;
+margin: 2rem 3rem;
 text-align: center;
 box-shadow: 1px 1px 22px;
 /* border-radius: 0px; */
@@ -43,7 +44,7 @@ box-shadow: 1px 1px 22px;
         /* border: 2px solid black; */
 width: 18.1rem;
 height: 24.1rem;
-margin: 4rem 12rem;
+margin: 2rem 3rem;
 text-align: center;
 box-shadow: 1px 1px 40px;
 /* border-radius: 0px; */}

@@ -54,6 +54,8 @@ body{
     padding-top: 31px;
     border-radius: 6px;
     background-color: white;
+    transition: all;
+    transition-duration: 10ms;
     
 }
 .feautes:hover{

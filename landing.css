@@ -56,7 +56,7 @@ body{
     background-color: white;
     transition: all;
     transition-duration: 10ms;
-    
+    ;
 }
 .feautes:hover{
     width: 15.5rem;

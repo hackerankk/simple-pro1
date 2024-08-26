@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding-left: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .hov{
+            background-color: mediumspringgreen;
+    height: 9rem;
+    width: 15rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+    /* justify-content: center; */
+        }
+        .content{
+            opacity: 0;
+            position:absolute;
+        }
+        .content:hover{
+            opacity: 1;
+    /* position: relative; */
+    display: flex;
+    width: 18rem;
+    height: 16rem;
+    align-items: flex-end;
+        }
+        .hov:hover{
+            background-color: mediumspringgreen;
+    height: 16rem;
+    width: 18rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="hov">
+        <div class="image">
+        <span> <img src="image/coconut.jpeg"></span>
+        </div>
+        <div class="content">
+            <h5>Card no1</h5>
+            <p>this is the one of the beautiful image of beautiful nature here we have the oportunity live with such a nice creature</p>
+        </div>
+    </div>
+</body>
+</html>

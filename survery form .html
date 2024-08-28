@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="survey form.css">
+    <title>Feedback</title>
+</head>
+<body>
+   <div class="head">
+    <h1>Feedback survey form</h1>
+   </div> 
+<div class="from">
+    <form action="flex">
+        <label for="name" class="fontform">name</label>
+        <input type="text" class=" formtext">
+        <label for="email"class="fontform">email</label>
+        <input type="email" class=" formtext" required>
+        <label for="age"class="fontform">age</label>
+        <input  class=" formtext" type="number" min="10" max="40" required>
+        <label for="type " class="fontform">type of Feedback</label>
+        <select class="formtext">
+            <option class="formtext">positive</option>
+            <option class="formtext">negative</option>
+            <option class="formtext">suggestion</option>
+        </select>
+        <fieldset>
+            <h2> service used:</h2>
+            <input type="checkbox" class="serve">
+            <label for="service">service 1 </label><br>
+            <input type="checkbox" class="serve">
+            <label for="service">service 2 </label><br>
+            <input type="checkbox" class="serve">
+            <label for="service">service 3 </label><br>
+           
+        </fieldset>
+        <label class="fontform">additional comment:</label>
+        <textarea name="" id="height1"></textarea>
+    </form>
+
+</div>
+<a href="wwww.google.com"><button>submit Feedback</button></a>
+</body>
+</html>
